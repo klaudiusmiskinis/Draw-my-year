@@ -1,0 +1,60 @@
+/* Importando fuente */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+/* Definiendo colores en variables para reutilizarlos */
+:root {
+    --blanco: #fff;
+    --efecto: 0.5s;
+    --bg-color: #0f0c29;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background: var(--bg-color);
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    color: var(--blanco);
+}
+
+a:link, a:visited, a:active {
+    color: var(--blanco);
+    text-decoration: none;
+}
+
+.nav {
+    position: relative;
+    overflow: hidden;
+}
+  
+.nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    margin: 1rem;
+    padding: 1rem;
+    transition: var(--efecto);
+    border-bottom: 1px solid transparent;
+}
+  
+.nav a:hover {
+    transition: var(--efecto);
+    border-bottom: 1px solid white;
+    color: var(--blanco);
+}
+  
+.nav-center a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+.nav-right {
+    float: right;
+}
+
+.title {
+    font-size: 150%;
+}
