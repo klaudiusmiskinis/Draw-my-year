@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin : 0;
+    box-sizing : border-box;
+}
+
+body {
+    background: #292929;
+    font-family: 'calibri';
+}
+
+header {
+    background: #03A9F4;
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.menu {
+    width: 900px;
+    margin: 0 auto;
+}
+
+img{
+    width: 120px;
+
+}
+
+Video Menu min 5.40
+https://www.youtube.com/watch?v=84o47055oEM
