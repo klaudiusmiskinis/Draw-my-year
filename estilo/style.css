@@ -3,7 +3,7 @@ html, body {
 }
   
 body {
-    background: linear-gradient(-45deg, #394799, #05216e, #106f92, #0300bd);
+    background: linear-gradient(-45deg, #172855, #05216e, #00bddf);
     background-size: 400% 400%;
     animation: gradiente 15s ease infinite;
     font-family: 'Rubik';
@@ -22,8 +22,7 @@ a:link, a:visited, a:active {
 
 a {
     transition: var(--efecto);
-    border: 1px solid var(--blanco);
-    border-radius: 5px;
+    border-bottom: 1px solid var(--blanco);
     padding-right: 0.25rem;
     padding-left: 0.25rem;
 }
