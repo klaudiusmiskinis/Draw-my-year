@@ -1,0 +1,21 @@
+/* Importando fuente */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+/* Definiendo colores en variables para reutilizarlos */
+:root {
+    --blanco: #fff;
+    --efecto: 0.5s;
+    --main: #0f0c29;
+}
+  
+  @keyframes gradiente {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
