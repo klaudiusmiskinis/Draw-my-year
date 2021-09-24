@@ -7,53 +7,29 @@ body {
     background-size: 400% 400%;
     animation: gradiente 15s ease infinite;
     font-family: 'Rubik';
-    color: white;
+    color: var(--blanco);
+    font-size: 20px;
 }
-
 
 a:link, a:visited, a:active {
     color: var(--blanco);
     text-decoration: none;
 }
 
-.nav {
-    position: relative;
-    overflow: hidden;
-    height: 10%;
-}
-  
-.nav a {
-    float: left;
-    color: var();
+.texto{
     text-align: center;
-    text-decoration: none;
-    margin: 0.5rem;
-    padding: 0.75rem;
-    transition: var(--efecto);
-    border-bottom: 1px solid transparent;
-    border: 1px solid white;
-}
-  
-.nav a:hover {
-    transition: var(--efecto);
-    color: var(--main);
-    border: 1px solid white;
-    background-color: white;
-}
-  
-.nav-center a {
-    float: none;
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 1px solid white;
-}
-  
-.nav-right {
-    float: right;
 }
 
-.title {
-    font-size: 150%;
+a {
+    transition: var(--efecto);
+    border: 1px solid var(--blanco);
+    border-radius: 5px;
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
+}
+
+a:hover {
+    transition: var(--efecto);
+    background-color: var(--blanco);
+    color: var(--main);
 }
