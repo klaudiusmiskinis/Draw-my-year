@@ -1,14 +1,13 @@
 html, body {
-    width: 99%;
     height:99%;
 }
   
 body {
-      background: linear-gradient(-45deg, #394799, #05216e, #106f92, #0300bd);
-      background-size: 400% 400%;
-      animation: gradiente 15s ease infinite;
-      font-family: 'Rubik';
-      color: white;
+    background: linear-gradient(-45deg, #394799, #05216e, #106f92, #0300bd);
+    background-size: 400% 400%;
+    animation: gradiente 15s ease infinite;
+    font-family: 'Rubik';
+    color: white;
 }
 
 
@@ -20,12 +19,12 @@ a:link, a:visited, a:active {
 .nav {
     position: relative;
     overflow: hidden;
-    height: 20%;
+    height: 10%;
 }
   
 .nav a {
     float: left;
-    color: #f2f2f2;
+    color: var();
     text-align: center;
     text-decoration: none;
     margin: 0.5rem;
@@ -45,7 +44,7 @@ a:link, a:visited, a:active {
 .nav-center a {
     float: none;
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     border: 1px solid white;

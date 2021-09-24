@@ -7,6 +7,17 @@
     --efecto: 0.5s;
     --main: #0f0c29;
 }
+
+@media (max-width: 546px) {
+    .nav {
+        display: none;
+    }
+}
+@media (min-width: 545px) {
+    .nav {
+        display: block;
+    }
+}
   
   @keyframes gradiente {
       0% {
