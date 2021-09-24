@@ -4,9 +4,11 @@ html, body {
   }
   
   body {
-      background: linear-gradient(-45deg, #5269ee, #05216e, #01a9e6, #0300bd);
+      background: linear-gradient(-45deg, #394799, #05216e, #106f92, #0300bd);
       background-size: 400% 400%;
       animation: gradiente 15s ease infinite;
+      font-family: 'Rubik';
+      color: white;
   }
   
   @keyframes gradiente {
