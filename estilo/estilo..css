@@ -1,17 +1,32 @@
 
 body{
-   background-color: #2E4053;
+   background-color: #9E9E9E;
 }
-
-h1{
+div{
+   
+    width: 400px;
+    height: 60px;
+    margin: auto;
+    font-style:oblique;
+     text-align: center;
+     text-shadow: 3px 1px 2px white, 0 0 25px blue, 0 0 5px darkblue;
+}
+h2{
     font-style:oblique;
     text-align: center;
-    color:#F9EBEA;
-}
-
- h2{
-    font-style:oblique;
+    color:#ffffff;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+ h3{
+    font-style:oblique;
     text-align: center;
-    color:#F9EBEA;
+    color:#ffffff;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    
+}
+
+p{
+    font-style:oblique;  
+    text-align:left
 }
