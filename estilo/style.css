@@ -27,6 +27,10 @@ a {
     padding-left: 0.25rem;
 }
 
+.peq {
+    font-size: 14px;
+}
+
 a:hover {
     transition: var(--efecto);
     background-color: var(--blanco);
