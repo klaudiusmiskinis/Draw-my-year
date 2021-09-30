@@ -4,17 +4,24 @@
     box-sizing : border-box;
 }
 
-body {
-    background: white;
-    font-family: 'calibri';
-}
-
 header {
     background: #03A9F4;
     width: 100%;
     clear: both;
     content: '';
     display: table;
+    font-size: large;
+}
+
+body {
+    margin-left: auto;
+    background: white;
+    font-family: 'calibri';
+    font-size: large;
+}
+
+div{
+    margin-left: 20px;
 }
 
 .menu {
@@ -23,8 +30,8 @@ header {
 }
 
 img{
-    width: 120px;
-    height: 100px;
+    width: 80px;
+    height: 60px;
     float: left;
     padding: 8px;
 }
@@ -50,7 +57,15 @@ nav ul li a {
 nav ul li a::before{
     display: block;
     content: '';
-    width: 100%;
+    width: 0%;
     background: #444;
     height: 5px;
+    top: 0;
+    position: absolute;
+    transition: width 0.2s;
+    
+}
+
+nav ul li a:hover::before{
+    width: 100%;
 }
