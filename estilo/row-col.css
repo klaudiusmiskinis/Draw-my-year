@@ -1,11 +1,31 @@
-.column {
-    float: left;
-    width: 50%;
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
     text-align: center;
 }
-  
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+
+.column {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.der {
+    border-right: 1px solid var(--blanco);
+}
+
+.izq {
+    border-left: 1px solid var(--blanco);
+}
+
+.aba {
+    border-bottom: 1px solid var(--blanco);
+}
+
+.arr {
+    border-top: 1px solid var(--blanco);
 }
