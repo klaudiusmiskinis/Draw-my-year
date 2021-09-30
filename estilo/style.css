@@ -12,6 +12,10 @@ body {
     font-size: 20px;
 }
 
+i {
+    text-align: center;
+}
+
 a:link, a:visited, a:active {
     color: var(--blanco);
     text-decoration: none;
@@ -19,6 +23,11 @@ a:link, a:visited, a:active {
 
 .texto{
     text-align: center;
+}
+
+.frase {
+    text-align: center;
+    font-size: 18px;
 }
 
 a {
@@ -40,3 +49,14 @@ a:hover {
 .container {
     margin-top: 2rem;
 }
+
+.container-vacio {
+    height: 45rem;
+}
+
+.container-blob {
+    margin: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+
