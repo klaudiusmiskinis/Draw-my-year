@@ -8,8 +8,17 @@
     --main: #394799;
 }
 
+::selection {
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+}
+
 @media (max-width: 546px) {
     .nav {
+        transition: 0.5s;
+        display: none;
+    }
+    .line-top {
         display: none;
     }
 }

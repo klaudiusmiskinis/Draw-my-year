@@ -1,11 +1,12 @@
 html, body {
     height:99%;
+    scroll-behavior: smooth;
 }
   
 body {
     background: linear-gradient(-45deg, #172855, #05216e, #00bddf);
     background-size: 400% 400%;
-    animation: gradiente 15s ease infinite;
+    animation: gradiente 10s ease infinite;
     font-family: 'Rubik';
     color: var(--blanco);
     font-size: 20px;
@@ -31,4 +32,8 @@ a:hover {
     transition: var(--efecto);
     background-color: var(--blanco);
     color: var(--main);
+}
+
+.container {
+    margin-top: 2rem;
 }

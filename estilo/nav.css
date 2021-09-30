@@ -1,16 +1,22 @@
+hr {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
 .nav {
-    position: relative;
-    overflow: hidden;
-    height: 10%;
+    justify-content: center;
+    text-align: center;
+    margin: 0.75rem;
+    padding: 1.5rem;
+}
+
+.nav .title{
+    padding: 0.75rem;
 }
   
 .nav a {
-    float: left;
-    color: var();
     text-align: center;
     text-decoration: none;
-    margin: 0.5rem;
-    padding: 0.75rem;
     transition: var(--efecto);
     border-bottom: 1px solid transparent;
     border: 1px solid white;
@@ -21,17 +27,4 @@
     color: var(--main);
     border: 1px solid var(--blanco);
     background-color: var(--blanco);
-}
-  
-.nav-center a {
-    float: none;
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 1px solid white;
-}
-  
-.nav-right {
-    float: right;
 }
