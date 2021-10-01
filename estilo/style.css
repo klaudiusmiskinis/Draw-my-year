@@ -1,5 +1,4 @@
 html, body {
-    height:99%;
     scroll-behavior: smooth;
 }
   
@@ -54,9 +53,17 @@ a:hover {
     height: 45rem;
 }
 
+.container-vacio-med {
+    height: 25rem;
+}
+
 .container-blob {
     margin: 2rem;
     justify-content: center;
     text-align: center;
+}
+
+#frases-cont {
+    padding: 1rem;
 }
 
