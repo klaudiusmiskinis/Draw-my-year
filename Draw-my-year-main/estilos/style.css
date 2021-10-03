@@ -5,7 +5,7 @@
 }
 
 header {
-    background: #31a3d8;
+    background: #00aeff;
     width: 100%;
     clear: both;
     content: '';
@@ -15,23 +15,46 @@ header {
 
 body {
     margin-left: 0px;
-    background: rgb(255, 255, 255);
+    background: #aebfcc;
     font-family: 'calibri';
     font-size: large;
 }
 
 h1{
-    margin-left: 20px;
-    margin-top: 15px;
+    margin-left: 40px;
+    margin-top: 25px;
+    font-size: large;
+}
+
+h2{
+    margin-left: 200px;
+}
+
+h3{
+    font-weight: normal;
+    margin-left: 240px;
+    font-family: 'calibri';
     font-size: large;
 }
 
 p{
-    margin-left: 25px;
+    margin-top: 10px;
+    margin-left: 45px;
     font-size: large;
 }
 
 iframe{
+    
+    margin-left: 40px;
+}
+
+p1{
+    margin-left: 47px;
+    font-size: large;
+    font-weight: normal;
+}
+
+div2{
     margin-left: 40px;
 }
 
@@ -41,17 +64,45 @@ iframe{
 }
 
 img{
-    width: 110px;
-    height: 90px;
-    float: left;
     padding: 8px;
+}
+
+.LaCapilla img {
+    width: 550px;
+    height: 350px;
+    margin-left: 90px;
+    border-radius: 20px;
+}
+
+.Comida1 img {
+    width: 400px;
+    height: 600px;
+    margin-top: 20px;
+    margin-left: 240px;
+    border-radius: 20px;
+}
+
+.Leon1 img {      
+    width: 500px;
+    height: 349px;
+    margin-top: 20px;
+    margin-left: 230px;
+    border-radius: 20px;
+}
+
+.Leon2 img {      
+    width: 426px;
+    height: 184px;
+    margin-top: 20px;
+    margin-left: 230px;
+    border-radius: 20px;
 }
 
 nav {
     float: right;
 }
 
-nav  ul li {
+nav ul li {
     list-style: none;
     margin-left: 25px;
     padding: 25px 0;
@@ -61,7 +112,7 @@ nav  ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #444;
+    color: rgb(53, 52, 52);
     font-weight: bold;
 }
 
@@ -69,7 +120,7 @@ nav ul li a::before{
     display: block;
     content: '';
     width: 0%;
-    background: rgb(53, 52, 52);
+    background: rgb(0, 171, 245);
     height: 5px;
     top: 0;
     position: absolute;
