@@ -15,7 +15,7 @@ header {
 
 body {
     margin-left: 0px;
-    background: rgb(255, 255, 255);
+    background: #aebfcc;
     font-family: 'calibri';
     font-size: large;
 }
@@ -44,6 +44,20 @@ b{
     transition: 0.2s;
 }
 
+h2{
+    
+    margin-left: 400px;
+    font-family: 'calibri';
+    font-size: large;   
+}
+
+h3{
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+    font-family: 'calibri';
+    font-size: large;   
+}
 
 b:hover{
     color: 255784;
