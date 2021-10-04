@@ -1,0 +1,34 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.nombre {
+    padding: 1rem;
+}
+
+.der {
+    border-right: 1px solid var(--blanco);
+}
+
+.izq {
+    border-left: 1px solid var(--blanco);
+}
+
+.aba {
+    border-bottom: 1px solid var(--blanco);
+}
+
+.arr {
+    border-top: 1px solid var(--blanco);
+}

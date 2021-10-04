@@ -4,31 +4,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../estilo/assets/img/circulo.png">
+    <link rel="stylesheet" href="../estilo/boton-bajar.css">
+    <link rel="stylesheet" href="../estilo/scrollbar.css">
+    <link rel="stylesheet" href="../estilo/row-col.css">
+    <link rel="stylesheet" href="../estilo/header.css">
     <link rel="stylesheet" href="../estilo/style.css">
     <link rel="stylesheet" href="../estilo/var.css">
     <link rel="stylesheet" href="../estilo/nav.css">
     <title>Draw My Year</title>
 </head>
 <body>
+    <header id="header"></header>
+
     <div class="nav">
-        <div class="nav-center">
-            <a href="#" class="title">Draw My Year</a>
-        </div>
-        <a href="#">Séfora</a>
-        <a href="#">Klaudius</a>    
-        <div class="nav-right">
-            <a href="#">Andrés</a>
-            <a href="#">Jorge</a>
-        </div>
+        <a href="#" class="title">Draw My Year</a>
+        <p class="peq">2021-2022</p>
     </div>
+
     <div class="container">
-        <div class="inner-header">
-            <p class="texto">Pequeño proyecto desarrollado en <b>HTML</b> y <b>CSS</b>.</p>
+        <p class="texto">Pequeño proyecto desarrollado en <b><a class="aba" href="https://es.wikipedia.org/wiki/HTML">HTML</a></b> y <b><a class="aba" href="https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada">CSS</a></b>.</p>
+        <p class="texto">El proceso de este proyecto y sus avanaces se puede revisar en: <b><a class="aba" href="https://github.com/klaudiusmiskinis/Draw-my-year">GitHub</a>.</b></p>
+    </div>
+
+    <div class="container-blob">
+        <a class="blob blue" href="#frases-cont">. .</a>
+    </div>
+
+    <div class="container-vacio"></div>
+
+    <div class="container" id="frases-cont">
+        <div class="container" id="frases">
+            <hr>
+            <p class="frase"><i>"Estás llamando mal a la variable."</i> ~ Ruben</p>
+            <hr>
         </div>
-        <div>
-            <p class="texto">Este proyecto intenta mostrar nuestras habilidades con los lenguajes de marcas.</p>
-            <p class="texto">El proceso de este proyecto y sus avanaces se puede revisar en: <b><a href="https://github.com/klaudiusmiskinis/Draw-my-year">GitHub</a></b></p>
+
+        <div class="container" id="frases">
+            <hr>
+            <p class="frase"><i>"Código ojete."</i> ~ Escribano</p>
+            <hr>
+        </div>
+
+        <div class="container" id="frases">
+            <hr>
+            <p class="frase"><i>"Los ArrayList son comos los Arrays"</i> ~ Nelson</p>
+            <hr>
+        </div>
+
+        <div class="container" id="frases">
+            <hr>
+            <p class="frase"><i>"Búscalo en Google."</i> ~ Fonsi</p>
+            <hr>
+        </div>
+
+        <div class="container" id="frases">
+            <hr>
+            <p class="frase"><i>"Las bases de datos son para guardar datos."</i> ~ Rosa</p>
+            <hr>
+        </div>
+        
+        <div class="container">
+            <hr>
+            <p class="frase"><i>"No hay mayor handicap que el handicap de la prueba de validación."</i> ~ Manolo</p>
+            <hr>
         </div>
     </div>
+
+    <div class="container-blob">
+        <a class="blob blue" href="#nombres">. .</a>
+    </div>
+
+    <div class="container-vacio"></div>
+
+    <div class="container" id="nombres">
+        <p class="texto">Selecciona un perfil</p>
+        <hr>
+        <div class="row ">
+            <div class="column"><a class="nombre" href="#">Séfora</a></div>
+            <div class="column"><a class="nombre" href="./klaudius.html">Klaudius</a></div>
+        </div>
+        <div class="row">
+            <div class="column"><a class="nombre" href="./andres.html">Andrés</a></div>
+            <div class="column"><a class="nombre" href="#">Jorge</a></div>
+        </div>
+        <hr>
+    </div>
+
+    <div class="container-vacio-med"></div>
+
+    <footer>
+        <div class="container-blob">
+            <a class="blob blue" href="#header">. .</a>
+            <p>Volver arriba</p>
+        </div>
+    </footer>
 </body>
 </html>

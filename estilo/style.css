@@ -1,14 +1,18 @@
 html, body {
-    height:99%;
+    scroll-behavior: smooth;
 }
   
 body {
     background: linear-gradient(-45deg, #172855, #05216e, #00bddf);
     background-size: 400% 400%;
-    animation: gradiente 15s ease infinite;
+    animation: gradiente 10s ease infinite;
     font-family: 'Rubik';
     color: var(--blanco);
     font-size: 20px;
+}
+
+i {
+    text-align: center;
 }
 
 a:link, a:visited, a:active {
@@ -20,11 +24,19 @@ a:link, a:visited, a:active {
     text-align: center;
 }
 
+.frase {
+    text-align: center;
+    font-size: 18px;
+}
+
 a {
     transition: var(--efecto);
-    border-bottom: 1px solid var(--blanco);
     padding-right: 0.25rem;
     padding-left: 0.25rem;
+}
+
+.peq {
+    font-size: 14px;
 }
 
 a:hover {
@@ -32,3 +44,26 @@ a:hover {
     background-color: var(--blanco);
     color: var(--main);
 }
+
+.container {
+    margin-top: 2rem;
+}
+
+.container-vacio {
+    height: 45rem;
+}
+
+.container-vacio-med {
+    height: 25rem;
+}
+
+.container-blob {
+    margin: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+
+#frases-cont {
+    padding: 1rem;
+}
+

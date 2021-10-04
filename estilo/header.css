@@ -1,0 +1,18 @@
+.fijado {
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    bottom: 10px;
+}
+
+li {
+    display: inline;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
