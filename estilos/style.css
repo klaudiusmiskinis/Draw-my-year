@@ -1,0 +1,26 @@
+
+body {
+  background: linear-gradient(-45deg, #5269ee, #05216e, #01a9e6, #0300bd);
+  background-size: 400% 400%;
+  animation: gradiente 15s ease infinite;
+
+  margin: auto;
+  text-align: center;
+}
+
+
+
+#identificador    {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  }
+
+  #contenedor {
+    width: 52%;
+    margin: 50px auto;
+    border: solid 1px #000;
+    font: 1em arial, helvetica, sans-serif;
+    color: white;
+    }
