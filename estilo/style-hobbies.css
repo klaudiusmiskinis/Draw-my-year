@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin : 0;
+    box-sizing : border-box;
+}
+
+header {
+    background: #00aeff;
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+    font-size: large;
+}
+
+body {
+    margin-left: 0px;
+    background: rgb(255, 255, 255);
+    font-family: 'calibri';
+    font-size: large;
+}
+
+div1 {
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #aebfcc;
+    font-family: consolas;
+
+}
+
+b{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+
+b:hover{
+    color: 255784;
+    background: #2193f3;
+    box-shadow: 0 0 10px #2193f3, 0 0 40px #2193f3, 0 0 80px #2193f3;
+    transition-delay: 1s;
+}
+
+b span{
+    position: absolute;
+    display: block;
+}
+
+b span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, transparent, #2a09e6);
+}
+
+b:hover span:nth-child(1){
+    left: 100%;
+    transition: 1s;
+}
+
+b span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(270deg, transparent, #2a09e6);
+}
+
+b:hover span:nth-child(3){
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s; 
+}
+
+b span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #2a09e6);
+}
+
+b:hover span:nth-child(2){
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s; 
+}
+
+b span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #2a09e6);
+}
+
+b:hover span:nth-child(4){
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s; 
+}
+
+iframe{
+    margin-left: 40px;
+}
+
+.menu {
+    width: 900px;
+    margin: 0px;
+}
+
+img{
+    width: 110px;
+    height: 60px;
+    float: left;
+    padding: 8px;
+}
+
+nav {
+    float: right;
+}
+
+nav  ul li {
+    list-style: none;
+    margin-left: 25px;
+    padding: 25px 0;
+    float: left;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+    font-weight: bold;
+}
+
+nav ul li a::before{
+    display: block;
+    content: '';
+    width: 0%;
+    background: rgb(53, 52, 52);
+    height: 5px;
+    top: 0;
+    position: absolute;
+    transition: width 0.2s;
+    
+}
+
+nav ul li a:hover::before{
+    width: 100%;
+}
