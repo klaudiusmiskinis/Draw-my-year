@@ -1,0 +1,29 @@
+
+body{
+    background-image: url('https://ae01.alicdn.com/kf/HTB1._4cSFXXXXcDXVXXq6xXFXXX0/Fondos-de-fotograf-a-de-lujo-beb-azul-tela-de-fondo-de-tela-para-estudio-fotogr.jpg') ;
+    background-size: cover;
+}
+
+.ex{
+ width: 500 px;
+ background: rgb(0, 0, 0, 0, 4);
+ margin: 0 auto;
+ margin-top: 5%;
+ padding: 20px;
+ text-align: center;
+
+}
+
+h1{
+    font-style:oblique; 
+    text-shadow: 1px 1px 2px rgb(119, 90, 90), 0 0 25px blue, 0 0 5px darkblue;
+    text-align: center;
+    color:#F9EBEA;
+}
+
+ h2{
+    font-style:oblique;
+    text-shadow: 1px 1px 2px rgb(119, 90, 90), 0 0 25px blue, 0 0 5px darkblue;
+    text-align: center;
+    color:#F9EBEA;
+}
